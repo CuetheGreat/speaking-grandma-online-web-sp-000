@@ -6,7 +6,9 @@ def speak_to_grandma
   if is_lowercased?(text)
     return "HUH?! SPEAK UP, SONNY!"
   else if text == "I LOVE YOU GRANDMA!"
-    return ""
+    return "I LOVE YOU TOO PUMPKIN!"
+  else
+    return
   
 # If you shout, she can hear you (or at least she thinks so) 
 # and yells back
